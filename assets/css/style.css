@@ -1,5 +1,6 @@
 h1 {
     display: inline-block;
+    float: left;
     width: 20%;
     overflow: auto;
     font-family: 'Arial';
@@ -14,6 +15,7 @@ h1 {
       font-size: 24px;
       line-height: 32px;
       background-image: url("../images/background_1.jpg");
+      margin: 0;
   }
 a{
     vertical-align: top;
@@ -53,6 +55,7 @@ a{
       display: inline-block;
   }
   p {
+      float: left;
       text-align: left;
       font-family: 'Arial';
       font-size: 12px;
